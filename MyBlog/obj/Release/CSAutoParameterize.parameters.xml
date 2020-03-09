@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Myblog-Web.config Connection String" description="Myblog 데이터베이스에 액세스하기 위해 응용 프로그램에 의해 web.config에 사용된 연결 문자열입니다." defaultValue="Data Source=.\;Initial Catalog=Myblog;Integrated Security=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\topojs8\\source\\repos\\MyBlog\\MyBlog\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Myblog']/@connectionString" />
+  </parameter>
+  <parameter name="MyblogConnectionString-Web.config Connection String" description="MyblogConnectionString 데이터베이스에 액세스하기 위해 응용 프로그램에 의해 web.config에 사용된 연결 문자열입니다." defaultValue="Data Source=.;Initial Catalog=Myblog;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\topojs8\\source\\repos\\MyBlog\\MyBlog\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyblogConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
